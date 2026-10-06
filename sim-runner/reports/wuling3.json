@@ -1,0 +1,652 @@
+{
+  "name": "wuling3",
+  "file": "sim_new3_v5.json",
+  "seconds": 180,
+  "entityCount": 467,
+  "topologyDiagnostics": 0,
+  "diagnostics": [],
+  "finalTick": 3600,
+  "warehouseStats": {
+    "item_copper_nugget": {
+      "producedPerMinute": 30,
+      "consumedPerMinute": 0,
+      "warehouseCount": 0,
+      "infinite": false,
+      "lastChangedTick": 3591
+    },
+    "item_liquid_sewage": {
+      "producedPerMinute": 30,
+      "consumedPerMinute": 0,
+      "warehouseCount": 0,
+      "infinite": false,
+      "lastChangedTick": 3591
+    },
+    "item_plant_grass_seed_2": {
+      "producedPerMinute": 30,
+      "consumedPerMinute": 0,
+      "warehouseCount": 0,
+      "infinite": false,
+      "lastChangedTick": 3561
+    },
+    "item_copper_ore": {
+      "producedPerMinute": 0,
+      "consumedPerMinute": 30,
+      "warehouseCount": 0,
+      "infinite": false,
+      "lastChangedTick": 3591
+    },
+    "item_liquid_water": {
+      "producedPerMinute": 0,
+      "consumedPerMinute": 30,
+      "warehouseCount": 0,
+      "infinite": true,
+      "lastChangedTick": 3591
+    },
+    "item_plant_grass_2": {
+      "producedPerMinute": 0,
+      "consumedPerMinute": 30,
+      "warehouseCount": 0,
+      "infinite": false,
+      "lastChangedTick": 3561
+    },
+    "item_liquid_acid": {
+      "producedPerMinute": 0,
+      "consumedPerMinute": 0,
+      "warehouseCount": 0,
+      "infinite": true,
+      "lastChangedTick": 0
+    }
+  },
+  "deviceInventory": {
+    "hydro_planter_1:0": [
+      "item_input_buffer/input_item_slot_1=item_plant_grass_seed_2×50"
+    ],
+    "hydro_planter_1:1": [
+      "fluid_input_buffer/input_fluid_slot_1=item_liquid_water×50"
+    ],
+    "hydro_planter_1:4": [
+      "fluid_input_buffer/input_fluid_slot_1=item_liquid_water×50"
+    ],
+    "hydro_planter_1:5": [
+      "fluid_input_buffer/input_fluid_slot_1=item_liquid_water×50"
+    ],
+    "liquid_furnance_1:0": [
+      "item_input_buffer/input_item_slot_1=item_copper_ore×1",
+      "fluid_input_buffer/input_fluid_slot_1=item_liquid_water×49",
+      "fluid_output_buffer/output_fluid_slot_1=item_liquid_sewage×33",
+      "item_output_buffer/output_item_slot_1=item_copper_nugget×1"
+    ],
+    "liquid_furnance_1:1": [
+      "item_input_buffer/input_item_slot_1=item_copper_ore×50"
+    ],
+    "liquid_furnance_1:2": [
+      "item_input_buffer/input_item_slot_1=item_copper_ore×50"
+    ],
+    "liquid_furnance_1:3": [
+      "item_input_buffer/input_item_slot_1=item_copper_ore×50"
+    ],
+    "logistics-draft:belt:21:21": [
+      "item_buffer/slot_1=item_plant_grass_seed_2×1"
+    ],
+    "logistics-draft:belt:36:34": [
+      "item_buffer/slot_1=item_iron_powder×1"
+    ],
+    "logistics-draft:belt:39:14": [
+      "item_buffer/slot_1=item_xiranite_powder×1"
+    ],
+    "logistics-draft:belt:39:20": [
+      "item_buffer/slot_1=item_xiranite_powder×1"
+    ],
+    "logistics-draft:belt:39:21": [
+      "item_buffer/slot_1=item_xiranite_powder×1"
+    ],
+    "logistics-draft:belt:39:22": [
+      "item_buffer/slot_1=item_xiranite_powder×1"
+    ],
+    "logistics-draft:belt:39:25": [
+      "item_buffer/slot_1=item_iron_powder×1"
+    ],
+    "logistics-draft:belt:40:14": [
+      "item_buffer/slot_1=item_xiranite_powder×1"
+    ],
+    "logistics-draft:belt:40:20": [
+      "item_buffer/slot_1=item_xiranite_powder×1"
+    ],
+    "logistics-draft:belt:40:25": [
+      "item_buffer/slot_1=item_iron_powder×1"
+    ],
+    "logistics-draft:belt:40:26": [
+      "item_buffer/slot_1=item_iron_powder×1"
+    ],
+    "logistics-draft:belt:40:27": [
+      "item_buffer/slot_1=item_iron_powder×1"
+    ],
+    "logistics-draft:belt:40:28": [
+      "item_buffer/slot_1=item_iron_powder×1"
+    ],
+    "logistics-draft:belt:41:20": [
+      "item_buffer/slot_1=item_xiranite_powder×1"
+    ],
+    "logistics-draft:belt:41:28": [
+      "item_buffer/slot_1=item_iron_powder×1"
+    ],
+    "logistics-draft:belt:42:20": [
+      "item_buffer/slot_1=item_xiranite_powder×1"
+    ],
+    "logistics-draft:belt:42:28": [
+      "item_buffer/slot_1=item_iron_powder×1"
+    ],
+    "logistics-draft:belt:43:0": [
+      "item_buffer/slot_1=item_copper_ore×1"
+    ],
+    "logistics-draft:belt:43:1": [
+      "item_buffer/slot_1=item_copper_ore×1"
+    ],
+    "logistics-draft:belt:43:20": [
+      "item_buffer/slot_1=item_xiranite_powder×1"
+    ],
+    "logistics-draft:belt:43:28": [
+      "item_buffer/slot_1=item_iron_powder×1"
+    ],
+    "logistics-draft:belt:43:7": [
+      "item_buffer/slot_1=item_copper_ore×1"
+    ],
+    "logistics-draft:belt:44:0": [
+      "item_buffer/slot_1=item_copper_ore×1"
+    ],
+    "logistics-draft:belt:44:20": [
+      "item_buffer/slot_1=item_xiranite_powder×1"
+    ],
+    "logistics-draft:belt:44:28": [
+      "item_buffer/slot_1=item_iron_powder×1"
+    ],
+    "logistics-draft:belt:44:7": [
+      "item_buffer/slot_1=item_copper_ore×1"
+    ],
+    "logistics-draft:belt:45:0": [
+      "item_buffer/slot_1=item_copper_ore×1"
+    ],
+    "logistics-draft:belt:45:1": [
+      "item_buffer/slot_1=item_copper_ore×1"
+    ],
+    "logistics-draft:belt:45:20": [
+      "item_buffer/slot_1=item_xiranite_powder×1"
+    ],
+    "logistics-draft:belt:45:28": [
+      "item_buffer/slot_1=item_iron_powder×1"
+    ],
+    "logistics-draft:belt:45:7": [
+      "item_buffer/slot_1=item_copper_ore×1"
+    ],
+    "logistics-draft:belt:46:1": [
+      "item_buffer/slot_1=item_copper_ore×1"
+    ],
+    "logistics-draft:belt:46:13": [
+      "item_buffer/slot_1=item_xiranite_powder×1"
+    ],
+    "logistics-draft:belt:46:14": [
+      "item_buffer/slot_1=item_xiranite_powder×1"
+    ],
+    "logistics-draft:belt:46:17": [
+      "item_buffer/slot_1=item_xiranite_powder×1"
+    ],
+    "logistics-draft:belt:46:20": [
+      "item_buffer/slot_1=item_xiranite_powder×1"
+    ],
+    "logistics-draft:belt:46:23": [
+      "item_buffer/slot_1=item_xiranite_powder×1"
+    ],
+    "logistics-draft:belt:46:25": [
+      "item_buffer/slot_1=item_iron_powder×1"
+    ],
+    "logistics-draft:belt:46:26": [
+      "item_buffer/slot_1=item_iron_powder×1"
+    ],
+    "logistics-draft:belt:46:28": [
+      "item_buffer/slot_1=item_iron_powder×1"
+    ],
+    "logistics-draft:belt:46:29": [
+      "item_buffer/slot_1=item_iron_powder×1"
+    ],
+    "logistics-draft:belt:46:4": [
+      "item_buffer/slot_1=item_copper_ore×1"
+    ],
+    "logistics-draft:belt:46:7": [
+      "item_buffer/slot_1=item_copper_ore×1"
+    ],
+    "logistics-draft:pipe:12:18": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:12:19": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:12:20": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:12:22": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:12:23": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:12:24": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:13:21": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:14:21": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:15:21": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:16:21": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:17:21": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:18:21": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:19:21": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:20:21": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:21:21": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:22:21": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:23:21": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:24:1": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:24:2": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:24:21": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:24:3": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:24:4": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:24:6": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:24:7": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:24:8": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:25:1": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:25:10": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:25:11": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:25:12": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:25:13": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:25:14": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:25:15": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:25:16": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:25:17": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:25:18": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:25:2": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:25:21": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:25:3": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:25:4": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:25:6": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:25:7": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:25:8": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:25:9": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:26:1": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:26:10": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:26:11": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:26:12": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:26:13": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:26:14": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:26:15": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:26:16": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:26:17": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:26:18": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:26:19": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:26:2": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:26:20": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:26:21": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:26:3": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:26:4": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:26:5": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:26:6": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:26:7": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:26:8": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:26:9": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:27:1": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:27:10": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:27:11": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:27:12": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:27:2": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:27:3": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:27:4": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:27:5": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:27:6": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:27:7": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:27:8": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:27:9": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:44:11": [
+      "synthetic-input/slot_1=item_liquid_sewage×1",
+      "synthetic-output/slot_1=item_liquid_sewage×1"
+    ],
+    "logistics-draft:pipe:44:12": [
+      "synthetic-input/slot_1=item_liquid_sewage×1",
+      "synthetic-output/slot_1=item_liquid_sewage×1"
+    ],
+    "logistics-draft:pipe:44:7": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:45:6": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:45:7": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:46:1": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:46:7": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:47:1": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:47:2": [
+      "synthetic-input/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:47:3": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:47:4": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:47:5": [
+      "synthetic-input/slot_1=item_liquid_water×1",
+      "synthetic-output/slot_1=item_liquid_water×1"
+    ],
+    "logistics-draft:pipe:47:6": [
+      "synthetic-input/slot_1=item_liquid_water×1"
+    ],
+    "mix_pool_1:0": [
+      "shared_input_buffer/input_slot_1=item_iron_powder×50"
+    ],
+    "mix_pool_2:0": [
+      "shared_input_buffer/input_slot_1=item_xiranite_powder×50"
+    ],
+    "mix_pool_2:1": [
+      "shared_input_buffer/input_slot_1=item_xiranite_powder×50",
+      "shared_input_buffer/input_slot_2=item_iron_powder×50"
+    ],
+    "mix_pool_2:2": [
+      "shared_input_buffer/input_slot_1=item_xiranite_powder×50",
+      "shared_input_buffer/input_slot_2=item_iron_powder×50"
+    ],
+    "mix_pool_2:3": [
+      "shared_input_buffer/input_slot_1=item_xiranite_powder×50",
+      "shared_input_buffer/input_slot_2=item_liquid_sewage×50"
+    ],
+    "pipe_admission:0": [
+      "fluid_buffer/slot_1=item_liquid_water×1"
+    ],
+    "pipe_admission:1": [
+      "fluid_buffer/slot_1=item_liquid_water×1"
+    ],
+    "pipe_admission:2": [
+      "fluid_buffer/slot_1=item_liquid_water×1"
+    ],
+    "pipe_admission:3": [
+      "fluid_buffer/slot_1=item_liquid_water×1"
+    ],
+    "pipe_admission:4": [
+      "fluid_buffer/slot_1=item_liquid_water×1"
+    ],
+    "pipe_admission:5": [
+      "fluid_buffer/slot_1=item_liquid_water×1"
+    ],
+    "pipe_connector:0": [
+      "ns_buffer/ns_slot_1=item_liquid_water×1",
+      "ew_buffer/ew_slot_1=item_liquid_water×1"
+    ],
+    "pipe_splitter:8": [
+      "fluid_buffer/slot_1=item_liquid_water×1"
+    ],
+    "pipe_splitter:9": [
+      "fluid_buffer/slot_1=item_liquid_water×1"
+    ],
+    "seedcol_1:1": [
+      "item_output_buffer/output_item_slot_1=item_plant_grass_seed_2×30"
+    ],
+    "storager_1:3": [
+      "storage_slot_1/slot_1=item_copper_nugget×50",
+      "storage_slot_2/slot_1=item_copper_nugget×28"
+    ]
+  },
+  "recipeChannels": {
+    "liquid_furnance_1:0": {
+      "default": {
+        "channelId": "default",
+        "recipeId": "r_chrono_liquid_furnace_refined_copper_from_copper_ore_basic",
+        "progressSeconds": 0.45,
+        "desiredSeconds": 2,
+        "isProgressing": true,
+        "state": "running"
+      }
+    },
+    "liquid_cleaner_1:0": {},
+    "liquid_cleaner_1:1": {},
+    "liquid_cleaner_1:2": {},
+    "mix_pool_2:0": {},
+    "liquid_furnance_1:1": {},
+    "liquid_furnance_1:2": {},
+    "mix_pool_2:1": {},
+    "mix_pool_2:2": {},
+    "liquid_purifier_1:0": {},
+    "mix_pool_1:0": {},
+    "mix_pool_2:3": {},
+    "liquid_cleaner_1:3": {},
+    "liquid_furnance_1:3": {},
+    "liquid_cleaner_1:4": {}
+  },
+  "expectResults": []
+}

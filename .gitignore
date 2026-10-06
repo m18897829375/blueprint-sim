@@ -1,0 +1,14 @@
+# 生成物与缓存
+out/
+node_modules/
+__pycache__/
+*.pyc
+.anon_token
+.ralph/
+temp/
+turly/
+
+# 本地工具缓存（调研下载用，体积大）
+data/_*.txt
+data/_*.proto
+data/_api_md_cache.md

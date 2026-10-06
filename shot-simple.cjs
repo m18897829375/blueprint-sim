@@ -1,0 +1,22 @@
+const { chromium } = require("playwright");
+(async () => {
+  const browser = await chromium.launch();
+  const page = await browser.newPage({ viewport: { width: 1440, height: 900 } });
+  await page.goto("http://localhost:5173/", { waitUntil: "domcontentloaded" });
+  await page.waitForTimeout(5000);
+  await page.click('button[aria-label="蓝图模式"]');
+  await page.waitForTimeout(1000);
+  await page.click('[data-ui-button-id="blueprint-action-import-code"]');
+  await page.fill("[data-official-import-input]", "EF013Eo0i2O06aU0579");
+  await page.click('[data-ui-button-id="official-import-parse"]');
+  await page.waitForSelector("[data-official-import-results]", { timeout: 30000 });
+  await page.click('[data-ui-button-id="official-import-import-EF013Eo0i2O06aU0579"]');
+  await page.waitForTimeout(1500);
+  await page.click('button:has-text("保存")');
+  await page.waitForTimeout(1500);
+  await page.locator('text=未命名蓝图').first().click();
+  await page.waitForTimeout(1500);
+  await page.screenshot({ path: "out/ui-simple-preview.png" });
+  console.log("预览截图完成");
+  await browser.close();
+})().catch((e) => { console.error("FAIL:", e.message); process.exit(1); });

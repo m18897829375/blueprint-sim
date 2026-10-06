@@ -1,0 +1,103 @@
+{
+  "name": "simple",
+  "file": "sim_simple_v5.json",
+  "seconds": 120,
+  "entityCount": 20,
+  "topologyDiagnostics": 0,
+  "diagnostics": [],
+  "finalTick": 2400,
+  "warehouseStats": {
+    "item_iron_nugget": {
+      "producedPerMinute": 30,
+      "consumedPerMinute": 0,
+      "warehouseCount": 0,
+      "infinite": false,
+      "lastChangedTick": 2361
+    },
+    "item_iron_ore": {
+      "producedPerMinute": 0,
+      "consumedPerMinute": 30,
+      "warehouseCount": 0,
+      "infinite": false,
+      "lastChangedTick": 2361
+    },
+    "item_liquid_acid": {
+      "producedPerMinute": 0,
+      "consumedPerMinute": 0,
+      "warehouseCount": 0,
+      "infinite": true,
+      "lastChangedTick": 0
+    },
+    "item_liquid_water": {
+      "producedPerMinute": 0,
+      "consumedPerMinute": 0,
+      "warehouseCount": 0,
+      "infinite": true,
+      "lastChangedTick": 0
+    }
+  },
+  "deviceInventory": {
+    "furnance_1:0": [
+      "item_output_buffer/output_item_slot_1=item_iron_nugget×42"
+    ],
+    "logistics-draft:belt:0:2": [
+      "item_buffer/slot_1=item_iron_nugget×1"
+    ],
+    "logistics-draft:belt:0:3": [
+      "item_buffer/slot_1=item_iron_nugget×1"
+    ],
+    "logistics-draft:belt:0:4": [
+      "item_buffer/slot_1=item_iron_nugget×1"
+    ],
+    "logistics-draft:belt:1:4": [
+      "item_buffer/slot_1=item_iron_nugget×1"
+    ],
+    "logistics-draft:belt:2:4": [
+      "item_buffer/slot_1=item_iron_nugget×1"
+    ],
+    "logistics-draft:belt:3:4": [
+      "item_buffer/slot_1=item_iron_nugget×1"
+    ],
+    "logistics-draft:belt:4:4": [
+      "item_buffer/slot_1=item_iron_nugget×1"
+    ],
+    "logistics-draft:belt:5:4": [
+      "item_buffer/slot_1=item_iron_nugget×1"
+    ],
+    "logistics-draft:belt:6:4": [
+      "item_buffer/slot_1=item_iron_nugget×1"
+    ],
+    "logistics-draft:belt:7:4": [
+      "item_buffer/slot_1=item_iron_nugget×1"
+    ],
+    "logistics-draft:belt:8:4": [
+      "item_buffer/slot_1=item_iron_nugget×1"
+    ],
+    "logistics-draft:belt:9:3": [
+      "item_buffer/slot_1=item_iron_nugget×1"
+    ],
+    "logistics-draft:belt:9:4": [
+      "item_buffer/slot_1=item_iron_nugget×1"
+    ]
+  },
+  "recipeChannels": {
+    "furnance_1:0": {
+      "default": {
+        "channelId": "default",
+        "recipeId": "r_furnace_iron_nugget_from_iron_ore_basic",
+        "progressSeconds": 1.95,
+        "desiredSeconds": 2,
+        "isProgressing": true,
+        "state": "running"
+      }
+    }
+  },
+  "expectResults": [
+    {
+      "item": "item_iron_nugget",
+      "minPerMinute": 1,
+      "rate": 30,
+      "deviceStock": true
+    }
+  ]
+}

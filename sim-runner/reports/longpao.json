@@ -1,0 +1,193 @@
+{
+  "name": "longpao",
+  "file": "sim_user_v5.json",
+  "seconds": 120,
+  "entityCount": 129,
+  "topologyDiagnostics": 0,
+  "diagnostics": [],
+  "finalTick": 2400,
+  "warehouseStats": {
+    "item_copper_cmpt": {
+      "producedPerMinute": 120,
+      "consumedPerMinute": 0,
+      "warehouseCount": 0,
+      "infinite": false,
+      "lastChangedTick": 2361
+    },
+    "item_copper_nugget": {
+      "producedPerMinute": 0,
+      "consumedPerMinute": 120,
+      "warehouseCount": 0,
+      "infinite": false,
+      "lastChangedTick": 2361
+    },
+    "item_liquid_acid": {
+      "producedPerMinute": 0,
+      "consumedPerMinute": 0,
+      "warehouseCount": 0,
+      "infinite": true,
+      "lastChangedTick": 0
+    },
+    "item_liquid_water": {
+      "producedPerMinute": 0,
+      "consumedPerMinute": 0,
+      "warehouseCount": 0,
+      "infinite": true,
+      "lastChangedTick": 0
+    }
+  },
+  "deviceInventory": {
+    "cmpt_mc_1:1": [
+      "item_output_buffer/output_item_slot_1=item_copper_cmpt×44"
+    ],
+    "cmpt_mc_1:2": [
+      "item_output_buffer/output_item_slot_1=item_copper_cmpt×44"
+    ],
+    "cmpt_mc_1:3": [
+      "item_output_buffer/output_item_slot_1=item_copper_cmpt×43"
+    ],
+    "cmpt_mc_1:4": [
+      "item_output_buffer/output_item_slot_1=item_copper_cmpt×43"
+    ],
+    "furnance_1:0": [
+      "item_input_buffer/input_item_slot_1=item_xiranite_powder×50"
+    ],
+    "liquid_furnance_1:0": [
+      "item_input_buffer/input_item_slot_1=item_copper_ore×50"
+    ],
+    "liquid_furnance_1:1": [
+      "item_input_buffer/input_item_slot_1=item_copper_ore×50"
+    ],
+    "liquid_furnance_1:2": [
+      "item_input_buffer/input_item_slot_1=item_copper_ore×50"
+    ],
+    "logistics-draft:belt:10:21": [
+      "item_buffer/slot_1=item_copper_cmpt×1"
+    ],
+    "logistics-draft:belt:10:22": [
+      "item_buffer/slot_1=item_copper_cmpt×1"
+    ],
+    "logistics-draft:belt:10:23": [
+      "item_buffer/slot_1=item_copper_cmpt×1"
+    ],
+    "logistics-draft:belt:10:24": [
+      "item_buffer/slot_1=item_copper_cmpt×1"
+    ],
+    "logistics-draft:belt:10:25": [
+      "item_buffer/slot_1=item_xiranite_powder×1"
+    ],
+    "logistics-draft:belt:10:26": [
+      "item_buffer/slot_1=item_copper_cmpt×1"
+    ],
+    "logistics-draft:belt:10:27": [
+      "item_buffer/slot_1=item_copper_cmpt×1"
+    ],
+    "logistics-draft:belt:10:28": [
+      "item_buffer/slot_1=item_copper_cmpt×1"
+    ],
+    "logistics-draft:belt:10:29": [
+      "item_buffer/slot_1=item_copper_cmpt×1"
+    ],
+    "logistics-draft:belt:11:14": [
+      "item_buffer/slot_1=item_copper_ore×1"
+    ],
+    "logistics-draft:belt:11:25": [
+      "item_buffer/slot_1=item_xiranite_powder×1"
+    ],
+    "logistics-draft:belt:12:14": [
+      "item_buffer/slot_1=item_copper_ore×1"
+    ],
+    "logistics-draft:belt:12:25": [
+      "item_buffer/slot_1=item_xiranite_powder×1"
+    ],
+    "logistics-draft:belt:13:14": [
+      "item_buffer/slot_1=item_copper_ore×1"
+    ],
+    "logistics-draft:belt:13:25": [
+      "item_buffer/slot_1=item_xiranite_powder×1"
+    ],
+    "logistics-draft:belt:14:10": [
+      "item_buffer/slot_1=item_copper_ore×1"
+    ],
+    "logistics-draft:belt:14:13": [
+      "item_buffer/slot_1=item_copper_ore×1"
+    ],
+    "logistics-draft:belt:14:14": [
+      "item_buffer/slot_1=item_copper_ore×1"
+    ],
+    "logistics-draft:belt:14:16": [
+      "item_buffer/slot_1=item_copper_ore×1"
+    ],
+    "logistics-draft:belt:14:25": [
+      "item_buffer/slot_1=item_xiranite_powder×1"
+    ],
+    "logistics-draft:belt:14:34": [
+      "item_buffer/slot_1=item_xiranite_powder×1"
+    ],
+    "tools_asm_mc_1:1": [
+      "item_input_buffer/input_item_slot_1=item_copper_cmpt×50",
+      "item_input_buffer/input_item_slot_2=item_xiranite_powder×50"
+    ]
+  },
+  "recipeChannels": {
+    "tools_asm_mc_1:0": {},
+    "tools_asm_mc_1:1": {},
+    "liquid_furnance_1:0": {},
+    "liquid_cleaner_1:0": {},
+    "liquid_furnance_1:1": {},
+    "cmpt_mc_1:0": {},
+    "liquid_furnance_1:2": {},
+    "liquid_cleaner_1:1": {},
+    "liquid_cleaner_1:2": {},
+    "furnance_1:0": {},
+    "shaper_1:0": {},
+    "cmpt_mc_1:1": {
+      "default": {
+        "channelId": "default",
+        "recipeId": "r_component_copper_cmpt_from_copper_nugget_basic",
+        "progressSeconds": 1.95,
+        "desiredSeconds": 2,
+        "isProgressing": true,
+        "state": "running"
+      }
+    },
+    "cmpt_mc_1:2": {
+      "default": {
+        "channelId": "default",
+        "recipeId": "r_component_copper_cmpt_from_copper_nugget_basic",
+        "progressSeconds": 1.95,
+        "desiredSeconds": 2,
+        "isProgressing": true,
+        "state": "running"
+      }
+    },
+    "cmpt_mc_1:3": {
+      "default": {
+        "channelId": "default",
+        "recipeId": "r_component_copper_cmpt_from_copper_nugget_basic",
+        "progressSeconds": 1.95,
+        "desiredSeconds": 2,
+        "isProgressing": true,
+        "state": "running"
+      }
+    },
+    "cmpt_mc_1:4": {
+      "default": {
+        "channelId": "default",
+        "recipeId": "r_component_copper_cmpt_from_copper_nugget_basic",
+        "progressSeconds": 1.95,
+        "desiredSeconds": 2,
+        "isProgressing": true,
+        "state": "running"
+      }
+    }
+  },
+  "expectResults": [
+    {
+      "item": "item_copper_cmpt",
+      "minPerMinute": 1,
+      "rate": 120,
+      "deviceStock": true
+    }
+  ]
+}

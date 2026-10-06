@@ -1,0 +1,1219 @@
+{
+  "_comment": "平台配方切片（源 hsyhhssyy/IndustrialPlanner src/registry/recipe-definition.ts v6）。outputs/inputs 仅 itemId 列表（匹配用）。liquid_furnance_1 = 官方 furnance_1 mode=liquid 的 v5 实体名。",
+  "furnance_1": [
+    {
+      "id": "r_furnace_iron_nugget_from_iron_ore_basic",
+      "inputs": [
+        "item_iron_ore"
+      ],
+      "outputs": [
+        "item_iron_nugget"
+      ]
+    },
+    {
+      "id": "r_furnace_iron_nugget_from_iron_powder_basic",
+      "inputs": [
+        "item_iron_powder"
+      ],
+      "outputs": [
+        "item_iron_nugget"
+      ]
+    },
+    {
+      "id": "r_furnace_iron_enr_from_iron_enr_powder_basic",
+      "inputs": [
+        "item_iron_enr_powder"
+      ],
+      "outputs": [
+        "item_iron_enr"
+      ]
+    },
+    {
+      "id": "furnance_activity_xiranite_nugget_1",
+      "inputs": [
+        "item_xiranite_powder"
+      ],
+      "outputs": [
+        "item_activity_xiranite_nugget"
+      ]
+    },
+    {
+      "id": "furnance_activity_xiranite_enr_nugget_1",
+      "inputs": [
+        "item_xiranite_enr_powder"
+      ],
+      "outputs": [
+        "item_activity_xiranite_enr_nugget"
+      ]
+    },
+    {
+      "id": "r_furnace_quartz_glass_from_quartz_sand_basic",
+      "inputs": [
+        "item_quartz_sand"
+      ],
+      "outputs": [
+        "item_quartz_glass"
+      ]
+    },
+    {
+      "id": "r_furnace_crystal_shell_from_originium_ore_basic",
+      "inputs": [
+        "item_originium_ore"
+      ],
+      "outputs": [
+        "item_crystal_shell"
+      ]
+    },
+    {
+      "id": "r_furnace_quartz_glass_from_quartz_powder_basic",
+      "inputs": [
+        "item_quartz_powder"
+      ],
+      "outputs": [
+        "item_quartz_glass"
+      ]
+    },
+    {
+      "id": "r_furnace_crystal_shell_from_crystal_powder_basic",
+      "inputs": [
+        "item_crystal_powder"
+      ],
+      "outputs": [
+        "item_crystal_shell"
+      ]
+    },
+    {
+      "id": "r_furnace_crystal_powder_from_originium_powder_basic",
+      "inputs": [
+        "item_originium_powder"
+      ],
+      "outputs": [
+        "item_crystal_powder"
+      ]
+    },
+    {
+      "id": "r_furnace_crystal_enr_powder_from_originium_enr_powder_basic",
+      "inputs": [
+        "item_originium_enr_powder"
+      ],
+      "outputs": [
+        "item_crystal_enr_powder"
+      ]
+    },
+    {
+      "id": "r_furnace_crystal_enr_from_crystal_enr_powder_basic",
+      "inputs": [
+        "item_crystal_enr_powder"
+      ],
+      "outputs": [
+        "item_crystal_enr"
+      ]
+    },
+    {
+      "id": "r_furnace_quartz_enr_from_quartz_enr_powder_basic",
+      "inputs": [
+        "item_quartz_enr_powder"
+      ],
+      "outputs": [
+        "item_quartz_enr"
+      ]
+    },
+    {
+      "id": "r_furnace_carbon_enr_from_carbon_enr_powder_basic",
+      "inputs": [
+        "item_carbon_enr_powder"
+      ],
+      "outputs": [
+        "item_carbon_enr"
+      ]
+    },
+    {
+      "id": "r_furnace_carbon_mtl_from_moss_1_basic",
+      "inputs": [
+        "item_plant_moss_1"
+      ],
+      "outputs": [
+        "item_carbon_mtl"
+      ]
+    },
+    {
+      "id": "r_furnace_carbon_mtl_from_moss_2_basic",
+      "inputs": [
+        "item_plant_moss_2"
+      ],
+      "outputs": [
+        "item_carbon_mtl"
+      ]
+    },
+    {
+      "id": "r_furnace_carbon_mtl_from_moss_3_basic",
+      "inputs": [
+        "item_plant_moss_3"
+      ],
+      "outputs": [
+        "item_carbon_mtl"
+      ]
+    },
+    {
+      "id": "r_furnace_carbon_mtl_from_grass_1_basic",
+      "inputs": [
+        "item_plant_grass_1"
+      ],
+      "outputs": [
+        "item_carbon_mtl"
+      ]
+    },
+    {
+      "id": "r_furnace_carbon_mtl_from_grass_2_basic",
+      "inputs": [
+        "item_plant_grass_2"
+      ],
+      "outputs": [
+        "item_carbon_mtl"
+      ]
+    },
+    {
+      "id": "r_furnace_carbon_powder_from_moss_powder_1_basic",
+      "inputs": [
+        "item_plant_moss_powder_1"
+      ],
+      "outputs": [
+        "item_carbon_powder"
+      ]
+    },
+    {
+      "id": "r_furnace_carbon_powder_from_moss_powder_2_basic",
+      "inputs": [
+        "item_plant_moss_powder_2"
+      ],
+      "outputs": [
+        "item_carbon_powder"
+      ]
+    },
+    {
+      "id": "r_furnace_carbon_powder_from_moss_powder_3_basic",
+      "inputs": [
+        "item_plant_moss_powder_3"
+      ],
+      "outputs": [
+        "item_carbon_powder"
+      ]
+    },
+    {
+      "id": "r_furnace_carbon_powder_from_grass_powder_1_basic",
+      "inputs": [
+        "item_plant_grass_powder_1"
+      ],
+      "outputs": [
+        "item_carbon_powder"
+      ]
+    },
+    {
+      "id": "r_furnace_carbon_powder_from_grass_powder_2_basic",
+      "inputs": [
+        "item_plant_grass_powder_2"
+      ],
+      "outputs": [
+        "item_carbon_powder"
+      ]
+    },
+    {
+      "id": "r_furnace_carbon_enr_powder_from_moss_enr_powder_1_basic",
+      "inputs": [
+        "item_plant_moss_enr_powder_1"
+      ],
+      "outputs": [
+        "item_carbon_enr_powder"
+      ]
+    },
+    {
+      "id": "r_furnace_carbon_enr_powder_from_moss_enr_powder_2_basic",
+      "inputs": [
+        "item_plant_moss_enr_powder_2"
+      ],
+      "outputs": [
+        "item_carbon_enr_powder"
+      ]
+    },
+    {
+      "id": "furnance_carbon_material_4",
+      "inputs": [
+        "item_plant_tundra_wood"
+      ],
+      "outputs": [
+        "item_carbon_mtl"
+      ]
+    }
+  ],
+  "grinder_1": [
+    {
+      "id": "r_crusher_originium_powder_basic",
+      "inputs": [
+        "item_originium_ore"
+      ],
+      "outputs": [
+        "item_originium_powder"
+      ]
+    },
+    {
+      "id": "r_crusher_iron_powder_from_iron_nugget_basic",
+      "inputs": [
+        "item_iron_nugget"
+      ],
+      "outputs": [
+        "item_iron_powder"
+      ]
+    },
+    {
+      "id": "r_crusher_copper_powder_from_copper_nugget_basic",
+      "inputs": [
+        "item_copper_nugget"
+      ],
+      "outputs": [
+        "item_copper_powder"
+      ]
+    },
+    {
+      "id": "r_crusher_quartz_powder_from_quartz_glass_basic",
+      "inputs": [
+        "item_quartz_glass"
+      ],
+      "outputs": [
+        "item_quartz_powder"
+      ]
+    },
+    {
+      "id": "r_crusher_carbon_powder_from_carbon_mtl_basic",
+      "inputs": [
+        "item_carbon_mtl"
+      ],
+      "outputs": [
+        "item_carbon_powder"
+      ]
+    },
+    {
+      "id": "r_crusher_crystal_powder_from_crystal_shell_basic",
+      "inputs": [
+        "item_crystal_shell"
+      ],
+      "outputs": [
+        "item_crystal_powder"
+      ]
+    },
+    {
+      "id": "r_crusher_moss_powder_1_from_moss_1_basic",
+      "inputs": [
+        "item_plant_moss_1"
+      ],
+      "outputs": [
+        "item_plant_moss_powder_1"
+      ]
+    },
+    {
+      "id": "r_crusher_moss_powder_2_from_moss_2_basic",
+      "inputs": [
+        "item_plant_moss_2"
+      ],
+      "outputs": [
+        "item_plant_moss_powder_2"
+      ]
+    },
+    {
+      "id": "r_crusher_moss_powder_from_moss_basic",
+      "inputs": [
+        "item_plant_moss_3"
+      ],
+      "outputs": [
+        "item_plant_moss_powder_3"
+      ]
+    },
+    {
+      "id": "r_crusher_bbflower_powder_from_bbflower_basic",
+      "inputs": [
+        "item_plant_bbflower_1"
+      ],
+      "outputs": [
+        "item_plant_bbflower_powder_1"
+      ]
+    },
+    {
+      "id": "r_crusher_grass_powder_1_from_grass_1_basic",
+      "inputs": [
+        "item_plant_grass_1"
+      ],
+      "outputs": [
+        "item_plant_grass_powder_1"
+      ]
+    },
+    {
+      "id": "r_crusher_grass_powder_2_from_grass_2_basic",
+      "inputs": [
+        "item_plant_grass_2"
+      ],
+      "outputs": [
+        "item_plant_grass_powder_2"
+      ]
+    }
+  ],
+  "cmpt_mc_1": [
+    {
+      "id": "r_component_iron_enr_cmpt_from_iron_enr_basic",
+      "inputs": [
+        "item_iron_enr"
+      ],
+      "outputs": [
+        "item_iron_enr_cmpt"
+      ]
+    },
+    {
+      "id": "r_component_iron_cmpt_from_iron_nugget_basic",
+      "inputs": [
+        "item_iron_nugget"
+      ],
+      "outputs": [
+        "item_iron_cmpt"
+      ]
+    },
+    {
+      "id": "r_component_copper_cmpt_from_copper_nugget_basic",
+      "inputs": [
+        "item_copper_nugget"
+      ],
+      "outputs": [
+        "item_copper_cmpt"
+      ]
+    },
+    {
+      "id": "r_component_copper_enr_cmpt_from_copper_enr_basic",
+      "inputs": [
+        "item_copper_enr"
+      ],
+      "outputs": [
+        "item_copper_enr_cmpt"
+      ]
+    },
+    {
+      "id": "r_component_activity_xiranite_cmpt_from_xiranite_powder_basic",
+      "inputs": [
+        "item_xiranite_powder"
+      ],
+      "outputs": [
+        "item_activity_xiranite_cmpt"
+      ]
+    },
+    {
+      "id": "r_component_activity_xiranite_enr_cmpt_from_xiranite_enr_powder_basic",
+      "inputs": [
+        "item_xiranite_enr_powder"
+      ],
+      "outputs": [
+        "item_activity_xiranite_enr_cmpt"
+      ]
+    },
+    {
+      "id": "component_activity_copper_poly_cmpt",
+      "inputs": [
+        "item_activity_copper_poly"
+      ],
+      "outputs": [
+        "item_activity_copper_poly_cmpt"
+      ]
+    },
+    {
+      "id": "r_component_glass_cmpt_from_quartz_glass_basic",
+      "inputs": [
+        "item_quartz_glass"
+      ],
+      "outputs": [
+        "item_glass_cmpt"
+      ]
+    },
+    {
+      "id": "r_component_glass_enr_cmpt_from_quartz_enr_basic",
+      "inputs": [
+        "item_quartz_enr"
+      ],
+      "outputs": [
+        "item_glass_enr_cmpt"
+      ]
+    },
+    {
+      "id": "component_copper_enr2_cmpt_1",
+      "inputs": [
+        "item_copper_enr2"
+      ],
+      "outputs": [
+        "item_copper_enr2_cmpt"
+      ]
+    }
+  ],
+  "tools_asm_mc_1": [
+    {
+      "id": "r_chrono_tools_asm_medium_wuling_battery_from_waste_slag_and_originium_enr_powder_basic",
+      "inputs": [
+        "item_xiranite_poly",
+        "item_originium_enr_powder"
+      ],
+      "outputs": [
+        "item_proc_battery_5"
+      ]
+    },
+    {
+      "id": "r_packaging_battery_from_iron_cmpt_and_originium_enr_powder_basic",
+      "inputs": [
+        "item_iron_enr_cmpt",
+        "item_originium_enr_powder"
+      ],
+      "outputs": [
+        "item_proc_battery_3"
+      ]
+    },
+    {
+      "id": "r_packaging_bomb_from_glass_cmpt_and_bbflower_powder_basic",
+      "inputs": [
+        "item_glass_cmpt",
+        "item_plant_bbflower_powder_1"
+      ],
+      "outputs": [
+        "item_proc_bomb_1"
+      ]
+    },
+    {
+      "id": "r_packaging_battery_1_from_glass_cmpt_and_originium_powder_basic",
+      "inputs": [
+        "item_glass_cmpt",
+        "item_originium_powder"
+      ],
+      "outputs": [
+        "item_proc_battery_1"
+      ]
+    },
+    {
+      "id": "r_packaging_battery_2_from_iron_cmpt_and_originium_powder_basic",
+      "inputs": [
+        "item_iron_cmpt",
+        "item_originium_powder"
+      ],
+      "outputs": [
+        "item_proc_battery_2"
+      ]
+    },
+    {
+      "id": "r_packaging_battery_4_from_xiranite_and_originium_enr_powder_basic",
+      "inputs": [
+        "item_xiranite_powder",
+        "item_originium_enr_powder"
+      ],
+      "outputs": [
+        "item_proc_battery_4"
+      ]
+    },
+    {
+      "id": "r_packaging_bottled_rec_hp_4_from_iron_cmpt_and_iron_bottle_filled_grass_2_basic",
+      "inputs": [
+        "item_iron_cmpt",
+        "item_iron_bottle_filled_liquid_plant_grass_2"
+      ],
+      "outputs": [
+        "item_bottled_rec_hp_4"
+      ]
+    },
+    {
+      "id": "r_packaging_bottled_food_4_from_iron_cmpt_and_iron_bottle_filled_grass_1_basic",
+      "inputs": [
+        "item_iron_cmpt",
+        "item_iron_bottle_filled_liquid_plant_grass_1"
+      ],
+      "outputs": [
+        "item_bottled_food_4"
+      ]
+    },
+    {
+      "id": "r_packaging_bottled_rec_hp_5_from_copper_cmpt_and_copper_bottle_filled_grass_2_basic",
+      "inputs": [
+        "item_copper_cmpt",
+        "item_copper_bottle_filled_liquid_plant_grass_2"
+      ],
+      "outputs": [
+        "item_bottled_rec_hp_5"
+      ]
+    },
+    {
+      "id": "r_packaging_bottled_food_5_from_copper_cmpt_and_copper_bottle_filled_grass_1_basic",
+      "inputs": [
+        "item_copper_cmpt",
+        "item_copper_bottle_filled_liquid_plant_grass_1"
+      ],
+      "outputs": [
+        "item_bottled_food_5"
+      ]
+    },
+    {
+      "id": "tools_proc_filter_core_2",
+      "inputs": [
+        "item_copper_jar",
+        "item_xiranite_powder"
+      ],
+      "outputs": [
+        "item_filter_core"
+      ]
+    }
+  ],
+  "shaper_1": [
+    {
+      "id": "shaper_activity_xiranite_box_1",
+      "inputs": [
+        "item_activity_xiranite_nugget"
+      ],
+      "outputs": [
+        "item_activity_xiranite_box"
+      ]
+    },
+    {
+      "id": "r_shaper_iron_bottle_from_iron_nugget_basic",
+      "inputs": [
+        "item_iron_nugget"
+      ],
+      "outputs": [
+        "item_iron_bottle"
+      ]
+    },
+    {
+      "id": "r_shaper_copper_bottle_from_copper_nugget_basic",
+      "inputs": [
+        "item_copper_nugget"
+      ],
+      "outputs": [
+        "item_copper_bottle"
+      ]
+    },
+    {
+      "id": "r_shaper_glass_bottle_from_quartz_glass_basic",
+      "inputs": [
+        "item_quartz_glass"
+      ],
+      "outputs": [
+        "item_glass_bottle"
+      ]
+    },
+    {
+      "id": "r_shaper_iron_enr_bottle_from_iron_enr_basic",
+      "inputs": [
+        "item_iron_enr"
+      ],
+      "outputs": [
+        "item_iron_enr_bottle"
+      ]
+    },
+    {
+      "id": "r_shaper_copper_enr_bottle_from_copper_enr_basic",
+      "inputs": [
+        "item_copper_enr"
+      ],
+      "outputs": [
+        "item_copper_enr_bottle"
+      ]
+    },
+    {
+      "id": "r_shaper_glass_enr_bottle_from_quartz_enr_basic",
+      "inputs": [
+        "item_quartz_enr"
+      ],
+      "outputs": [
+        "item_glass_enr_bottle"
+      ]
+    },
+    {
+      "id": "r_shaper_activity_xiranite_bottle_from_xiranite_powder_basic",
+      "inputs": [
+        "item_xiranite_powder"
+      ],
+      "outputs": [
+        "item_activity_xiranite_bottle"
+      ]
+    },
+    {
+      "id": "r_shaper_activity_xiranite_enr_bottle_from_xiranite_enr_powder_basic",
+      "inputs": [
+        "item_xiranite_enr_powder"
+      ],
+      "outputs": [
+        "item_activity_xiranite_enr_bottle"
+      ]
+    }
+  ],
+  "power_sta_1": [
+    {
+      "id": "r_power_gen_originium_ore",
+      "inputs": [
+        "item_originium_ore"
+      ],
+      "outputs": [],
+      "powerOutput": 50
+    },
+    {
+      "id": "r_power_gen_battery_1",
+      "inputs": [
+        "item_proc_battery_1"
+      ],
+      "outputs": [],
+      "powerOutput": 220
+    },
+    {
+      "id": "r_power_gen_battery_2",
+      "inputs": [
+        "item_proc_battery_2"
+      ],
+      "outputs": [],
+      "powerOutput": 420
+    },
+    {
+      "id": "r_power_gen_battery_3",
+      "inputs": [
+        "item_proc_battery_3"
+      ],
+      "outputs": [],
+      "powerOutput": 1100
+    },
+    {
+      "id": "r_power_gen_battery_4",
+      "inputs": [
+        "item_proc_battery_4"
+      ],
+      "outputs": [],
+      "powerOutput": 1600
+    },
+    {
+      "id": "r_power_gen_battery_5",
+      "inputs": [
+        "item_proc_battery_5"
+      ],
+      "outputs": [],
+      "powerOutput": 3200
+    }
+  ],
+  "liquid_cleaner_1": [
+    {
+      "id": "r_chrono_wastewater_treatment_void_wastewater_basic",
+      "inputs": [
+        "item_liquid_sewage"
+      ],
+      "outputs": []
+    },
+    {
+      "id": "r_chrono_wastewater_treatment_void_xiranite_waste_liquid_basic",
+      "inputs": [
+        "item_liquid_xiranite_poly"
+      ],
+      "outputs": []
+    },
+    {
+      "id": "r_chrono_wastewater_treatment_void_inert_xiranite_waste_liquid_basic",
+      "inputs": [
+        "item_liquid_xiranite_lowpoly"
+      ],
+      "outputs": []
+    }
+  ],
+  "winder_1": [
+    {
+      "id": "r_chrono_winder_copper_equip_script_from_refined_copper_and_xiranite_basic",
+      "inputs": [
+        "item_copper_cmpt",
+        "item_xiranite_powder"
+      ],
+      "outputs": [
+        "item_equip_script_4_1"
+      ]
+    },
+    {
+      "id": "r_winder_equip_script_1_from_crystal_shell_and_quartz_glass_basic",
+      "inputs": [
+        "item_crystal_shell",
+        "item_quartz_glass"
+      ],
+      "outputs": [
+        "item_equip_script_1"
+      ]
+    },
+    {
+      "id": "r_winder_equip_script_2_from_crystal_shell_and_iron_nugget_basic",
+      "inputs": [
+        "item_crystal_shell",
+        "item_iron_nugget"
+      ],
+      "outputs": [
+        "item_equip_script_2"
+      ]
+    },
+    {
+      "id": "r_winder_equip_script_3_from_crystal_enr_and_quartz_enr_basic",
+      "inputs": [
+        "item_crystal_enr",
+        "item_quartz_enr"
+      ],
+      "outputs": [
+        "item_equip_script_3"
+      ]
+    },
+    {
+      "id": "r_winder_equip_script_4_from_crystal_enr_and_xiranite_powder_basic",
+      "inputs": [
+        "item_crystal_enr",
+        "item_xiranite_powder"
+      ],
+      "outputs": [
+        "item_equip_script_4"
+      ]
+    },
+    {
+      "id": "r_winder_equip_script_4_2_from_copper_enr_cmpt_and_xiranite_enr_powder_basic",
+      "inputs": [
+        "item_copper_enr_cmpt",
+        "item_xiranite_enr_powder"
+      ],
+      "outputs": [
+        "item_equip_script_4_2"
+      ]
+    },
+    {
+      "id": "winder_equip_script_4_3",
+      "inputs": [
+        "item_copper_enr2_cmpt",
+        "item_xiranite_enr_powder"
+      ],
+      "outputs": [
+        "item_equip_script_4_3"
+      ]
+    }
+  ],
+  "mix_pool_1": [
+    {
+      "id": "r_chrono_mix_pool_xiranite_waste_liquids_from_liquid_xiranite_and_wastewater_basic",
+      "inputs": [
+        "item_liquid_xiranite",
+        "item_liquid_sewage"
+      ],
+      "outputs": [
+        "item_liquid_xiranite_poly",
+        "item_liquid_xiranite_lowpoly"
+      ]
+    },
+    {
+      "id": "r_chrono_mix_pool_inert_waste_liquid_water_slag_from_waste_liquid_and_iron_powder_basic",
+      "inputs": [
+        "item_liquid_xiranite_poly",
+        "item_iron_powder"
+      ],
+      "outputs": [
+        "item_liquid_sewage",
+        "item_xiranite_poly"
+      ]
+    },
+    {
+      "id": "r_mix_pool_liquid_plant_grass_1_from_powder_and_water_basic",
+      "inputs": [
+        "item_plant_grass_powder_1",
+        "item_liquid_water"
+      ],
+      "outputs": [
+        "item_liquid_plant_grass_1"
+      ]
+    },
+    {
+      "id": "r_mix_pool_liquid_plant_grass_2_from_powder_and_water_basic",
+      "inputs": [
+        "item_plant_grass_powder_2",
+        "item_liquid_water"
+      ],
+      "outputs": [
+        "item_liquid_plant_grass_2"
+      ]
+    },
+    {
+      "id": "r_mix_pool_liquid_xiranite_from_xiranite_powder_and_water_basic",
+      "inputs": [
+        "item_xiranite_powder",
+        "item_liquid_water"
+      ],
+      "outputs": [
+        "item_liquid_xiranite"
+      ]
+    },
+    {
+      "id": "r_mix_pool_liquid_xiranite_enr_from_xiranite_enr_powder_and_acid_basic",
+      "inputs": [
+        "item_xiranite_enr_powder",
+        "item_liquid_acid"
+      ],
+      "outputs": [
+        "item_liquid_xiranite_enr"
+      ]
+    },
+    {
+      "id": "r_mix_pool_liquid_copper_from_copper_powder_and_acid_basic",
+      "inputs": [
+        "item_copper_powder",
+        "item_liquid_acid"
+      ],
+      "outputs": [
+        "item_liquid_copper"
+      ]
+    },
+    {
+      "id": "r_mix_pool_copper_enr_from_liquid_copper_enr_and_iron_powder_basic",
+      "inputs": [
+        "item_liquid_copper_enr",
+        "item_iron_powder"
+      ],
+      "outputs": [
+        "item_copper_enr",
+        "item_liquid_sewage"
+      ]
+    }
+  ],
+  "mix_pool_2": [
+    {
+      "id": "r_chrono_mix_pool_xiranite_waste_liquids_from_liquid_xiranite_and_wastewater_basic_large",
+      "inputs": [
+        "item_liquid_xiranite",
+        "item_liquid_sewage"
+      ],
+      "outputs": [
+        "item_liquid_xiranite_poly",
+        "item_liquid_xiranite_lowpoly"
+      ]
+    },
+    {
+      "id": "r_chrono_mix_pool_inert_waste_liquid_water_slag_from_waste_liquid_and_iron_powder_basic_large",
+      "inputs": [
+        "item_liquid_xiranite_poly",
+        "item_iron_powder"
+      ],
+      "outputs": [
+        "item_liquid_sewage",
+        "item_xiranite_poly"
+      ]
+    },
+    {
+      "id": "r_mix_pool_liquid_plant_grass_1_from_powder_and_water_basic_large",
+      "inputs": [
+        "item_plant_grass_powder_1",
+        "item_liquid_water"
+      ],
+      "outputs": [
+        "item_liquid_plant_grass_1"
+      ]
+    },
+    {
+      "id": "r_mix_pool_liquid_plant_grass_2_from_powder_and_water_basic_large",
+      "inputs": [
+        "item_plant_grass_powder_2",
+        "item_liquid_water"
+      ],
+      "outputs": [
+        "item_liquid_plant_grass_2"
+      ]
+    },
+    {
+      "id": "r_mix_pool_liquid_xiranite_from_xiranite_powder_and_water_basic_large",
+      "inputs": [
+        "item_xiranite_powder",
+        "item_liquid_water"
+      ],
+      "outputs": [
+        "item_liquid_xiranite"
+      ]
+    },
+    {
+      "id": "r_mix_pool_liquid_xiranite_enr_from_xiranite_enr_powder_and_acid_basic_large",
+      "inputs": [
+        "item_xiranite_enr_powder",
+        "item_liquid_acid"
+      ],
+      "outputs": [
+        "item_liquid_xiranite_enr"
+      ]
+    },
+    {
+      "id": "r_mix_pool_liquid_copper_from_copper_powder_and_acid_basic_large",
+      "inputs": [
+        "item_copper_powder",
+        "item_liquid_acid"
+      ],
+      "outputs": [
+        "item_liquid_copper"
+      ]
+    },
+    {
+      "id": "r_mix_pool_copper_enr_from_liquid_copper_enr_and_iron_powder_basic_large",
+      "inputs": [
+        "item_liquid_copper_enr",
+        "item_iron_powder"
+      ],
+      "outputs": [
+        "item_copper_enr",
+        "item_liquid_sewage"
+      ]
+    }
+  ],
+  "seedcol_1": [
+    {
+      "id": "r_seedcol_moss_seed_from_moss_basic",
+      "inputs": [
+        "item_plant_moss_3"
+      ],
+      "outputs": [
+        "item_plant_moss_seed_3"
+      ]
+    },
+    {
+      "id": "r_seedcol_moss_seed_1_from_moss_1_basic",
+      "inputs": [
+        "item_plant_moss_1"
+      ],
+      "outputs": [
+        "item_plant_moss_seed_1"
+      ]
+    },
+    {
+      "id": "r_seedcol_moss_seed_2_from_moss_2_basic",
+      "inputs": [
+        "item_plant_moss_2"
+      ],
+      "outputs": [
+        "item_plant_moss_seed_2"
+      ]
+    },
+    {
+      "id": "r_seedcol_bbflower_seed_from_bbflower_basic",
+      "inputs": [
+        "item_plant_bbflower_1"
+      ],
+      "outputs": [
+        "item_plant_bbflower_seed_1"
+      ]
+    },
+    {
+      "id": "r_seedcol_grass_seed_1_from_grass_1_basic",
+      "inputs": [
+        "item_plant_grass_1"
+      ],
+      "outputs": [
+        "item_plant_grass_seed_1"
+      ]
+    },
+    {
+      "id": "r_seedcol_grass_seed_2_from_grass_2_basic",
+      "inputs": [
+        "item_plant_grass_2"
+      ],
+      "outputs": [
+        "item_plant_grass_seed_2"
+      ]
+    },
+    {
+      "id": "seedcollector_plant_sp_1",
+      "inputs": [
+        "item_plant_sp_1"
+      ],
+      "outputs": [
+        "item_plant_sp_seed_1"
+      ]
+    },
+    {
+      "id": "seedcollector_plant_sp_2",
+      "inputs": [
+        "item_plant_sp_2"
+      ],
+      "outputs": [
+        "item_plant_sp_seed_2"
+      ]
+    },
+    {
+      "id": "seedcollector_plant_sp_3",
+      "inputs": [
+        "item_plant_sp_3"
+      ],
+      "outputs": [
+        "item_plant_sp_seed_3"
+      ]
+    },
+    {
+      "id": "seedcollector_plant_sp_4",
+      "inputs": [
+        "item_plant_sp_4"
+      ],
+      "outputs": [
+        "item_plant_sp_seed_4"
+      ]
+    }
+  ],
+  "planter_1": [
+    {
+      "id": "r_planter_moss_from_moss_seed_basic",
+      "inputs": [
+        "item_plant_moss_seed_3"
+      ],
+      "outputs": [
+        "item_plant_moss_3"
+      ]
+    },
+    {
+      "id": "r_planter_moss_1_from_moss_seed_1_basic",
+      "inputs": [
+        "item_plant_moss_seed_1"
+      ],
+      "outputs": [
+        "item_plant_moss_1"
+      ]
+    },
+    {
+      "id": "r_planter_moss_2_from_moss_seed_2_basic",
+      "inputs": [
+        "item_plant_moss_seed_2"
+      ],
+      "outputs": [
+        "item_plant_moss_2"
+      ]
+    },
+    {
+      "id": "r_planter_bbflower_from_bbflower_seed_basic",
+      "inputs": [
+        "item_plant_bbflower_seed_1"
+      ],
+      "outputs": [
+        "item_plant_bbflower_1"
+      ]
+    }
+  ],
+  "thickener_1": [
+    {
+      "id": "r_thickener_iron_enr_powder_from_iron_and_moss_powder_basic",
+      "inputs": [
+        "item_iron_powder",
+        "item_plant_moss_powder_3"
+      ],
+      "outputs": [
+        "item_iron_enr_powder"
+      ]
+    },
+    {
+      "id": "r_thickener_quartz_enr_powder_from_quartz_and_moss_powder_basic",
+      "inputs": [
+        "item_quartz_powder",
+        "item_plant_moss_powder_3"
+      ],
+      "outputs": [
+        "item_quartz_enr_powder"
+      ]
+    },
+    {
+      "id": "r_thickener_originium_enr_powder_from_originium_and_moss_powder_basic",
+      "inputs": [
+        "item_originium_powder",
+        "item_plant_moss_powder_3"
+      ],
+      "outputs": [
+        "item_originium_enr_powder"
+      ]
+    },
+    {
+      "id": "r_thickener_carbon_enr_powder_from_carbon_and_moss_powder_basic",
+      "inputs": [
+        "item_carbon_powder",
+        "item_plant_moss_powder_3"
+      ],
+      "outputs": [
+        "item_carbon_enr_powder"
+      ]
+    },
+    {
+      "id": "r_thickener_crystal_enr_powder_from_crystal_and_moss_powder_basic",
+      "inputs": [
+        "item_crystal_powder",
+        "item_plant_moss_powder_3"
+      ],
+      "outputs": [
+        "item_crystal_enr_powder"
+      ]
+    },
+    {
+      "id": "r_thickener_moss_enr_powder_1_from_moss_powder_1_and_moss_powder_basic",
+      "inputs": [
+        "item_plant_moss_powder_1",
+        "item_plant_moss_powder_3"
+      ],
+      "outputs": [
+        "item_plant_moss_enr_powder_1"
+      ]
+    },
+    {
+      "id": "r_thickener_moss_enr_powder_2_from_moss_powder_2_and_moss_powder_basic",
+      "inputs": [
+        "item_plant_moss_powder_2",
+        "item_plant_moss_powder_3"
+      ],
+      "outputs": [
+        "item_plant_moss_enr_powder_2"
+      ]
+    }
+  ],
+  "liquid_purifier_1": [
+    {
+      "id": "r_liquid_purifier_water_and_xiranite_poly_from_xiranite_lowpoly_basic",
+      "inputs": [
+        "item_liquid_xiranite_lowpoly"
+      ],
+      "outputs": [
+        "item_liquid_water",
+        "item_liquid_xiranite_poly"
+      ]
+    },
+    {
+      "id": "r_liquid_purifier_acid_and_copper_enr_from_copper_basic",
+      "inputs": [
+        "item_liquid_copper"
+      ],
+      "outputs": [
+        "item_liquid_acid",
+        "item_liquid_copper_enr"
+      ]
+    }
+  ],
+  "furnance_1_liquid": [
+    {
+      "id": "r_chrono_liquid_furnace_refined_copper_from_copper_ore_basic",
+      "inputs": [
+        "item_copper_ore",
+        "item_liquid_water"
+      ],
+      "outputs": [
+        "item_copper_nugget",
+        "item_liquid_sewage"
+      ]
+    }
+  ],
+  "planter_1_liquid": [
+    {
+      "id": "r_hydro_planter_grass_1_from_seed_1_and_water_basic",
+      "inputs": [
+        "item_plant_grass_seed_1",
+        "item_liquid_water"
+      ],
+      "outputs": [
+        "item_plant_grass_1"
+      ]
+    },
+    {
+      "id": "r_hydro_planter_grass_2_from_seed_2_and_water_basic",
+      "inputs": [
+        "item_plant_grass_seed_2",
+        "item_liquid_water"
+      ],
+      "outputs": [
+        "item_plant_grass_2"
+      ]
+    }
+  ]
+}

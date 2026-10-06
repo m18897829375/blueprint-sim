@@ -1,0 +1,427 @@
+{
+  "name": "wuling4",
+  "file": "sim_new4_v5.json",
+  "seconds": 180,
+  "entityCount": 376,
+  "topologyDiagnostics": 0,
+  "diagnostics": [],
+  "finalTick": 3600,
+  "warehouseStats": {
+    "item_originium_powder": {
+      "producedPerMinute": 480,
+      "consumedPerMinute": 480,
+      "warehouseCount": 0,
+      "infinite": false,
+      "lastChangedTick": 3561
+    },
+    "item_plant_moss_powder_3": {
+      "producedPerMinute": 240,
+      "consumedPerMinute": 240,
+      "warehouseCount": 0,
+      "infinite": false,
+      "lastChangedTick": 3561
+    },
+    "item_originium_enr_powder": {
+      "producedPerMinute": 240,
+      "consumedPerMinute": 240,
+      "warehouseCount": 0,
+      "infinite": false,
+      "lastChangedTick": 3561
+    },
+    "item_proc_battery_5": {
+      "producedPerMinute": 12,
+      "consumedPerMinute": 0,
+      "warehouseCount": 20,
+      "infinite": false,
+      "lastChangedTick": 3481
+    },
+    "item_originium_ore": {
+      "producedPerMinute": 0,
+      "consumedPerMinute": 480,
+      "warehouseCount": 0,
+      "infinite": false,
+      "lastChangedTick": 3561
+    },
+    "item_plant_moss_3": {
+      "producedPerMinute": 0,
+      "consumedPerMinute": 80,
+      "warehouseCount": 0,
+      "infinite": false,
+      "lastChangedTick": 3561
+    },
+    "item_xiranite_poly": {
+      "producedPerMinute": 0,
+      "consumedPerMinute": 60,
+      "warehouseCount": 0,
+      "infinite": false,
+      "lastChangedTick": 3481
+    },
+    "item_liquid_acid": {
+      "producedPerMinute": 0,
+      "consumedPerMinute": 0,
+      "warehouseCount": 0,
+      "infinite": true,
+      "lastChangedTick": 0
+    },
+    "item_liquid_water": {
+      "producedPerMinute": 0,
+      "consumedPerMinute": 0,
+      "warehouseCount": 0,
+      "infinite": true,
+      "lastChangedTick": 0
+    }
+  },
+  "deviceInventory": {
+    "grinder_1:12": [
+      "item_input_buffer/input_slot_1=item_plant_moss_3×13",
+      "item_output_buffer/output_slot_1=item_plant_moss_powder_3×49"
+    ],
+    "grinder_1:19": [
+      "item_input_buffer/input_slot_1=item_plant_moss_3×13",
+      "item_output_buffer/output_slot_1=item_plant_moss_powder_3×49"
+    ],
+    "grinder_1:3": [
+      "item_input_buffer/input_slot_1=item_plant_moss_3×13",
+      "item_output_buffer/output_slot_1=item_plant_moss_powder_3×49"
+    ],
+    "grinder_1:7": [
+      "item_input_buffer/input_slot_1=item_plant_moss_3×13",
+      "item_output_buffer/output_slot_1=item_plant_moss_powder_3×49"
+    ],
+    "thickener_1:0": [
+      "item_input_buffer/input_item_slot_1=item_originium_powder×2"
+    ],
+    "thickener_1:1": [
+      "item_input_buffer/input_item_slot_1=item_originium_powder×2"
+    ],
+    "thickener_1:2": [
+      "item_input_buffer/input_item_slot_1=item_originium_powder×2"
+    ],
+    "thickener_1:3": [
+      "item_input_buffer/input_item_slot_1=item_originium_powder×2"
+    ],
+    "thickener_1:4": [
+      "item_input_buffer/input_item_slot_1=item_originium_powder×2"
+    ],
+    "thickener_1:5": [
+      "item_input_buffer/input_item_slot_1=item_originium_powder×2"
+    ],
+    "thickener_1:6": [
+      "item_input_buffer/input_item_slot_1=item_originium_powder×2"
+    ],
+    "thickener_1:7": [
+      "item_input_buffer/input_item_slot_1=item_originium_powder×2"
+    ],
+    "tools_asm_mc_1:0": [
+      "item_input_buffer/input_item_slot_1=item_originium_enr_powder×13",
+      "item_input_buffer/input_item_slot_2=item_xiranite_poly×17"
+    ],
+    "tools_asm_mc_1:1": [
+      "item_input_buffer/input_item_slot_1=item_originium_enr_powder×10",
+      "item_input_buffer/input_item_slot_2=item_xiranite_poly×17"
+    ]
+  },
+  "recipeChannels": {
+    "grinder_1:0": {
+      "default": {
+        "channelId": "default",
+        "recipeId": "r_crusher_originium_powder_basic",
+        "progressSeconds": 1.95,
+        "desiredSeconds": 2,
+        "isProgressing": true,
+        "state": "running"
+      }
+    },
+    "grinder_1:1": {
+      "default": {
+        "channelId": "default",
+        "recipeId": "r_crusher_originium_powder_basic",
+        "progressSeconds": 1.95,
+        "desiredSeconds": 2,
+        "isProgressing": true,
+        "state": "running"
+      }
+    },
+    "thickener_1:0": {
+      "default": {
+        "channelId": "default",
+        "recipeId": "r_thickener_originium_enr_powder_from_originium_and_moss_powder_basic",
+        "progressSeconds": 1.95,
+        "desiredSeconds": 2,
+        "isProgressing": true,
+        "state": "running"
+      }
+    },
+    "grinder_1:2": {
+      "default": {
+        "channelId": "default",
+        "recipeId": "r_crusher_originium_powder_basic",
+        "progressSeconds": 1.95,
+        "desiredSeconds": 2,
+        "isProgressing": true,
+        "state": "running"
+      }
+    },
+    "grinder_1:3": {
+      "default": {
+        "channelId": "default",
+        "recipeId": "r_crusher_moss_powder_from_moss_basic",
+        "progressSeconds": 1.95,
+        "desiredSeconds": 2,
+        "isProgressing": true,
+        "state": "running"
+      }
+    },
+    "grinder_1:4": {
+      "default": {
+        "channelId": "default",
+        "recipeId": "r_crusher_originium_powder_basic",
+        "progressSeconds": 1.95,
+        "desiredSeconds": 2,
+        "isProgressing": true,
+        "state": "running"
+      }
+    },
+    "thickener_1:1": {
+      "default": {
+        "channelId": "default",
+        "recipeId": "r_thickener_originium_enr_powder_from_originium_and_moss_powder_basic",
+        "progressSeconds": 1.95,
+        "desiredSeconds": 2,
+        "isProgressing": true,
+        "state": "running"
+      }
+    },
+    "grinder_1:5": {
+      "default": {
+        "channelId": "default",
+        "recipeId": "r_crusher_originium_powder_basic",
+        "progressSeconds": 1.95,
+        "desiredSeconds": 2,
+        "isProgressing": true,
+        "state": "running"
+      }
+    },
+    "grinder_1:6": {
+      "default": {
+        "channelId": "default",
+        "recipeId": "r_crusher_originium_powder_basic",
+        "progressSeconds": 1.95,
+        "desiredSeconds": 2,
+        "isProgressing": true,
+        "state": "running"
+      }
+    },
+    "grinder_1:7": {
+      "default": {
+        "channelId": "default",
+        "recipeId": "r_crusher_moss_powder_from_moss_basic",
+        "progressSeconds": 1.95,
+        "desiredSeconds": 2,
+        "isProgressing": true,
+        "state": "running"
+      }
+    },
+    "grinder_1:8": {
+      "default": {
+        "channelId": "default",
+        "recipeId": "r_crusher_originium_powder_basic",
+        "progressSeconds": 1.95,
+        "desiredSeconds": 2,
+        "isProgressing": true,
+        "state": "running"
+      }
+    },
+    "grinder_1:9": {
+      "default": {
+        "channelId": "default",
+        "recipeId": "r_crusher_originium_powder_basic",
+        "progressSeconds": 1.95,
+        "desiredSeconds": 2,
+        "isProgressing": true,
+        "state": "running"
+      }
+    },
+    "grinder_1:10": {
+      "default": {
+        "channelId": "default",
+        "recipeId": "r_crusher_originium_powder_basic",
+        "progressSeconds": 1.95,
+        "desiredSeconds": 2,
+        "isProgressing": true,
+        "state": "running"
+      }
+    },
+    "grinder_1:11": {
+      "default": {
+        "channelId": "default",
+        "recipeId": "r_crusher_originium_powder_basic",
+        "progressSeconds": 1.95,
+        "desiredSeconds": 2,
+        "isProgressing": true,
+        "state": "running"
+      }
+    },
+    "thickener_1:2": {
+      "default": {
+        "channelId": "default",
+        "recipeId": "r_thickener_originium_enr_powder_from_originium_and_moss_powder_basic",
+        "progressSeconds": 1.95,
+        "desiredSeconds": 2,
+        "isProgressing": true,
+        "state": "running"
+      }
+    },
+    "thickener_1:3": {
+      "default": {
+        "channelId": "default",
+        "recipeId": "r_thickener_originium_enr_powder_from_originium_and_moss_powder_basic",
+        "progressSeconds": 1.95,
+        "desiredSeconds": 2,
+        "isProgressing": true,
+        "state": "running"
+      }
+    },
+    "grinder_1:12": {
+      "default": {
+        "channelId": "default",
+        "recipeId": "r_crusher_moss_powder_from_moss_basic",
+        "progressSeconds": 1.95,
+        "desiredSeconds": 2,
+        "isProgressing": true,
+        "state": "running"
+      }
+    },
+    "thickener_1:4": {
+      "default": {
+        "channelId": "default",
+        "recipeId": "r_thickener_originium_enr_powder_from_originium_and_moss_powder_basic",
+        "progressSeconds": 1.95,
+        "desiredSeconds": 2,
+        "isProgressing": true,
+        "state": "running"
+      }
+    },
+    "grinder_1:13": {
+      "default": {
+        "channelId": "default",
+        "recipeId": "r_crusher_originium_powder_basic",
+        "progressSeconds": 1.95,
+        "desiredSeconds": 2,
+        "isProgressing": true,
+        "state": "running"
+      }
+    },
+    "tools_asm_mc_1:0": {
+      "default": {
+        "channelId": "default",
+        "recipeId": "r_chrono_tools_asm_medium_wuling_battery_from_waste_slag_and_originium_enr_powder_basic",
+        "progressSeconds": 7.95,
+        "desiredSeconds": 10,
+        "isProgressing": true,
+        "state": "running"
+      }
+    },
+    "tools_asm_mc_1:1": {
+      "default": {
+        "channelId": "default",
+        "recipeId": "r_chrono_tools_asm_medium_wuling_battery_from_waste_slag_and_originium_enr_powder_basic",
+        "progressSeconds": 5.95,
+        "desiredSeconds": 10,
+        "isProgressing": true,
+        "state": "running"
+      }
+    },
+    "grinder_1:14": {
+      "default": {
+        "channelId": "default",
+        "recipeId": "r_crusher_originium_powder_basic",
+        "progressSeconds": 1.95,
+        "desiredSeconds": 2,
+        "isProgressing": true,
+        "state": "running"
+      }
+    },
+    "thickener_1:5": {
+      "default": {
+        "channelId": "default",
+        "recipeId": "r_thickener_originium_enr_powder_from_originium_and_moss_powder_basic",
+        "progressSeconds": 1.95,
+        "desiredSeconds": 2,
+        "isProgressing": true,
+        "state": "running"
+      }
+    },
+    "grinder_1:15": {
+      "default": {
+        "channelId": "default",
+        "recipeId": "r_crusher_originium_powder_basic",
+        "progressSeconds": 1.95,
+        "desiredSeconds": 2,
+        "isProgressing": true,
+        "state": "running"
+      }
+    },
+    "grinder_1:16": {
+      "default": {
+        "channelId": "default",
+        "recipeId": "r_crusher_originium_powder_basic",
+        "progressSeconds": 1.95,
+        "desiredSeconds": 2,
+        "isProgressing": true,
+        "state": "running"
+      }
+    },
+    "grinder_1:17": {
+      "default": {
+        "channelId": "default",
+        "recipeId": "r_crusher_originium_powder_basic",
+        "progressSeconds": 1.95,
+        "desiredSeconds": 2,
+        "isProgressing": true,
+        "state": "running"
+      }
+    },
+    "grinder_1:18": {
+      "default": {
+        "channelId": "default",
+        "recipeId": "r_crusher_originium_powder_basic",
+        "progressSeconds": 1.95,
+        "desiredSeconds": 2,
+        "isProgressing": true,
+        "state": "running"
+      }
+    },
+    "thickener_1:6": {
+      "default": {
+        "channelId": "default",
+        "recipeId": "r_thickener_originium_enr_powder_from_originium_and_moss_powder_basic",
+        "progressSeconds": 1.95,
+        "desiredSeconds": 2,
+        "isProgressing": true,
+        "state": "running"
+      }
+    },
+    "thickener_1:7": {
+      "default": {
+        "channelId": "default",
+        "recipeId": "r_thickener_originium_enr_powder_from_originium_and_moss_powder_basic",
+        "progressSeconds": 1.95,
+        "desiredSeconds": 2,
+        "isProgressing": true,
+        "state": "running"
+      }
+    },
+    "grinder_1:19": {
+      "default": {
+        "channelId": "default",
+        "recipeId": "r_crusher_moss_powder_from_moss_basic",
+        "progressSeconds": 1.95,
+        "desiredSeconds": 2,
+        "isProgressing": true,
+        "state": "running"
+      }
+    }
+  },
+  "expectResults": []
+}

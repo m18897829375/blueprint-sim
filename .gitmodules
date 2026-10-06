@@ -1,0 +1,4 @@
+[submodule "vendor/IndustrialPlanner"]
+	path = vendor/IndustrialPlanner
+	url = https://github.com/m18897829375/IndustrialPlanner.git
+	branch = official-import
