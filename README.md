@@ -14,10 +14,21 @@
 ### 测试（vendor/IndustrialPlanner 下）
 
 ```bash
-npx vitest run --project normal official-blueprint-import official-import-anchors official-edge-table topology-explicit-connections  # 单测 + 锚点回归 + 边表
+npx vitest run --project normal official-blueprint-import official-import-anchors official-edge-table official-single-cell-direction topology-explicit-connections  # 单测 + 锚点回归 + 边表 + 单格规则
 npx vitest run --project blueprint official-import-verify official-import-explicit-edges   # 小蓝图端到端（转换+仿真产出+边表编译）
 npx vitest run --project blueprint-slow official-import-wuling                      # 武陵 1/3/4 大蓝图端到端
 ```
+
+## 连接解析规则（2026-10-05 定案）
+
+蓝图码对连接是**自描述完备的**（游戏拍蓝图不需要人工修边），导入器按以下规则解析：
+
+1. **多格段**：折线点序 = 流向（游戏截图箭头逐格实证）；directionIn/Out 为脏数据忽略
+2. **单格段**：**官方声明直连采用**（dIn=dOut 直行 / dIn≠dOut 转弯），无声明才邻接推断
+3. **设备对接**：position + direction + 端口表（多端口设备沿整边每格一个端口，游戏建筑表实证，D9）
+4. **断头审计**：声明出向无对接的格子列于转换报告 `directionDivergences`（不改写声明，不静默）
+
+证据链见 RESEARCH.md §4；差异清单见 REPLICATION-DIFFS.md（D9 多端口、D10 单格规则）。
 
 ## 蓝图边表（显式连接，`bp_<code>.edges.json`）
 

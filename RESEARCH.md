@@ -38,11 +38,24 @@
 注册表端口基准（rot=0）：straight 进W出E；turn_cw 进E出N；turn_ccw 进N出E。
 （`entity-definition.ts` 里 turn 的头注释 "W→S / W→N" 已过期，以代码端口为准。）
 
-## 4. 官方 directionIn/Out 不可信
+## 4. 官方 directionIn/Out 语义定案（2026-10-05 修订）
 
-实证：多格物流段的 directionOut 与几何流向完全脱钩（bp_user 中 directionOut=270 出现在 W/N/S/ES 各种流向）。
-唯一例外：单格段无几何方向时，directionOut 可作 fallback：平台角 = (90 − directionOut.y) % 360。
-更稳的单格推断：邻接图（上下游带格/设备端口）优先于 directionOut。
+**旧结论（已废止）**："directionIn/Out 与几何流向脱钩不可信，仅单格段可作 fallback，邻接图优先"。
+
+**新定案**：
+- **多格段**：折线点序 = 流向（游戏截图箭头逐格实证）；directionIn/Out 脱钩为脏数据，忽略。
+- **单格段**：**官方声明直连采用**——dIn=dOut → straight；dIn≠dOut → turn（平台角 = (90 − y) % 360，映射经直行/转弯双例实证）。无声明字段才回退邻接推断。
+
+**证据链**：
+1. IL2CPP dump（`Gameplay.Beyond.dll.cs`）：蓝图传送带节点落地为
+   `BlueprintConveyorEntry{ spatial: ConveyorSpatialInfo{ startFace, GridPath{ startPoint, segments(face,length) } }, extraInfo: ConveyorExtraInfo{ portIn/portOut(position, direction, isFluid) } }`——
+   游戏把节点解析为**带显式逐段 face 与声明端口的连接记录**，不是逐格启发式。
+2. 解密 Lua `BlueprintPreview._GetConveyorSegmentInfos`：预览拐角按 startFace/endFace 渲染（`corner1/corner2`），证明官方 directionIn/Out 直接决定单格形状。
+3. D.I.G.E. 蓝图码生成器：直行写 dIn=dOut、转弯写不同值，其码游戏内可用 → 游戏采信声明。
+4. 游戏截图（EF013Eo0i2O06aU0579）：多格段箭头与折线点序逐格吻合；单格带 (90−y)%360 映射吻合。
+5. 单格段全量统计（13 蓝图 180 格）：dIn==dOut 172 格（直行声明），dIn≠dOut 8 格（转弯声明）。
+
+**连通审计**：忠实采用声明后，声明出向无对接的格子写入转换报告 `directionDivergences`（不改写声明）——判定为原蓝图断头/装饰带或平台无法表达的宽容结构。
 
 ## 5. 平台连通规则（topology compiler 源码级）
 

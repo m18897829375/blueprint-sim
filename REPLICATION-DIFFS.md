@@ -88,6 +88,18 @@
 | 佐证 | 蓝图协议（CSD_BLUE_PRINT_NODE/TRANSFORM）不含连接字段，游戏拍蓝图同样几何重建；连接权威来源 = 几何 + 端口定义 |
 | 状态 | **已闭环**（边表显式化方案落地，见 README"蓝图边表"节） |
 
+### D10 单格物流段方向解析：邻接启发式 → 官方声明直连（2026-10-05 定案）
+
+| 项 | 内容 |
+|---|---|
+| 旧行为 | 单格段流向"邻接图推断优先、directionOut 兜底"——启发式猜测，可造出断头带/错误转弯 |
+| 新行为 | **忠实采用官方声明 (directionIn, directionOut)**（直行 dIn=dOut、转弯 dIn≠dOut 直接 classify），无声明字段才回退邻接；声明出向断头只审计报告（`directionDivergences`），不改写声明 |
+| 证据 | ① IL2CPP dump：游戏蓝图传送带节点落地为 `ConveyorSpatialInfo{startFace+GridPath{segments(face,length)}}` + `ConveyorExtraInfo{portIn/portOut(position,direction)}`，方向是解析态数据而非逐格推断；② 解密 Lua `BlueprintPreview._GetConveyorSegmentInfos`：预览拐角按 startFace/endFace 渲染；③ D.I.G.E. 蓝图码生成器写入约定（直行 dIn=dOut、转弯不同）；④ 游戏截图箭头与折线点序逐格吻合（多格段）；⑤ 单格段 (90−y)%360 映射截图实证 |
+| 回归收益 | 连接数变化：bp_user 119→121、武陵2 82→83、武陵1 359→361（新增连接全部是**修复真实产线断链**：构件机→组装机、液体炉→仓库、磨机→增稠器）；未连通警告下降（武陵2 3→2、武陵1 4→2、bp_user 6→4）；verify 5/5 + wuling slow 3/3 全绿且 150s 仿真产出断言不劣化 |
+| 审计现状 | 忠实声明后仍有声明出向断头（bp_test 2、壤晶 2、武陵3 9、武陵4 20）——判定为原蓝图断头/装饰带或平台无法表达的宽容结构，逐格列于转换报告 `directionDivergences`，不静默 |
+| 历史备注 | 武陵4 (17,5)/(32,5) 曾记录"邻接=E 更正确"的有意偏差；D10 定案后统一为声明优先（N），偏差取消 |
+| 状态 | **已定案**（RESEARCH.md §4 同步改写） |
+
 ## 复刻度量（8 份基准 + 案例蓝图）
 
 - 布局/朝向：**100%**（锚点回归 559/559）
